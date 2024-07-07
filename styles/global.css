@@ -1,8 +1,46 @@
-/* Navbar  */
-.nav {
-  background-color: transparent;
+/* Header & Navbar Section */
+.header__and__navbar {
+  background-color: var(--dark__teal-color);
+  position: relative;
+  min-height: 100vh;
+  z-index: 1;
+}
+.header__and__navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/images/bg-element.png);
+  background-size: 250px 250px;
+  background-repeat: repeat;
+  opacity: 15%;
+  z-index: -1;
 }
 
+.header__section {
+  padding: 30px 0px;
+}
+/* Header & Navbar Section */
+
+/* Navbar  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0px;
+}
+.nav .logo__in__navbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav .logo__in__navbar span {
+  color: var(--light__green-color);
+  font-family: boska-regular;
+  font-size: 1.75rem;
+}
 .nav ul li {
   display: inline-block;
   padding: 10px 15px;
@@ -12,15 +50,105 @@
 .nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-family: switzer-light;
+  font-size: 18px;
 }
 
 /* Navbar  */
 
 /* Hero Section */
 .hero__section {
-  background-color: var(--dark__teal-color);
-  min-height: 100vh;
-  /* border: 1px solid var(--light__green-color); */
+  position: relative;
+  z-index: 1;
+}
+.circle__dashed__line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/images/circle-line.svg);
+  background-repeat: no-repeat;
+  background-size: 60% !important;
+  background-position: center;
+  opacity: 1;
+  background-size: contain;
+  z-index: -1;
+}
+.circle__dashed__line::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/images/circle-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30% !important;
+  opacity: 1;
+  background-size: contain;
+  z-index: -1;
 }
 
+.hero__typography {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding-block: 40px;
+  gap: 20px 0px;
+}
+
+.cosy {
+  grid-column: span 12;
+  font-size: 262px;
+  font-weight: 400;
+  line-height: 161.76px;
+  text-align: center;
+  color: white;
+}
+.cabin {
+  grid-row-start: 2;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  color: var(--light__green-color);
+  font-size: 262px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 185.55px;
+  text-align: center;
+}
+.in__the {
+  grid-column-start: 7;
+  margin-bottom: -50px;
+  font-size: 32px;
+  font-family: boska-variable;
+  font-weight: 600;
+  line-height: 41.6px;
+  text-align: center;
+  color: white;
+}
+.woods {
+  grid-column: span 12;
+  font-size: 262px;
+  font-weight: 400;
+  line-height: 161.76px;
+  text-align: center;
+  color: white;
+}
+
+.hero__description {
+  max-width: 35rem;
+  color: white;
+  margin: 0 auto;
+  font-family: switzer-variable;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 23.76px;
+  text-align: center;
+  margin-top: 30px;
+}
+/* .circle__image-heroSection:before{
+
+} */
 /* Hero Section */
