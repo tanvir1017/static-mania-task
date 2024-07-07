@@ -1,0 +1,39 @@
+/* Merge all of the style files into one */
+@import url(font.css);
+@import url(../fonts/Switzer_CompleteWEB/css/switzer.css);
+@import url(global.css);
+
+/*________________________________________________________________________ Variable 
+color _____________________________________________________________________________ */
+:root {
+  --teal-color: #678784;
+  --dark__teal-color: #1c3a37;
+  --light__green-color: #75ff69;
+  --background-color: #ecf0f1;
+  --text-color: #2c3e50;
+}
+
+/*________________________________________________________________________GLOBAL STYLES_____________________________________________________________________________ */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* Optional padding */
+  padding-right: 1rem; /* Optional padding */
+}
+
+.m-auto {
+  margin: 0 auto !important;
+}
+
+/*________________________________________________________________________GLOBAL STYLES_____________________________________________________________________________ */

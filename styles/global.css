@@ -1,0 +1,26 @@
+/* Navbar  */
+.nav {
+  background-color: transparent;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1.2em;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Navbar  */
+
+/* Hero Section */
+.hero__section {
+  background-color: var(--dark__teal-color);
+  min-height: 100vh;
+  /* border: 1px solid var(--light__green-color); */
+}
+
+/* Hero Section */
