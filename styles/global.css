@@ -1,11 +1,13 @@
 /* Header & Navbar Section */
 .header__and__navbar {
+  min-height: 100vh;
+}
+.iconic__section {
   background-color: var(--dark__teal-color);
   position: relative;
-  min-height: 100vh;
   z-index: 1;
 }
-.header__and__navbar::before {
+.iconic__section::before {
   content: "";
   position: absolute;
   top: 0;
@@ -153,7 +155,7 @@
 /* showcase section */
 .showcase__section {
   background-color: white;
-  padding-block: 120px;
+  padding-block: 100px;
 }
 
 .showcase__wrapper {
@@ -216,3 +218,108 @@
   line-height: 31.68px;
 }
 /* showcase section */
+
+/* forest section */
+.forest__trees {
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(/assets/images/forest.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* forest section */
+
+/* Sign up section */
+.sign__up {
+  min-height: 90vh;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  padding-block: 100px;
+}
+
+.sign__up__insider {
+  position: relative;
+}
+
+.sign__up__insider img {
+  width: 1194px;
+  height: 704px;
+}
+
+.sign__up__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+}
+.sign__up__offer__text {
+  margin: 0 auto;
+  text-align: center;
+}
+.sign__up__offer__text h2 {
+  font-family: boska-variable;
+  font-size: 68px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 88.4px;
+  text-align: center;
+  color: white;
+}
+.sign__up__offer__text p {
+  padding-block: 30px;
+  max-width: 25rem;
+  margin: 0 auto;
+  font-family: switzer-variable;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23.76px;
+  color: white;
+}
+
+.sign__up__form {
+  position: relative;
+}
+.sign__up__form input {
+  width: 550px;
+  height: 60px;
+  padding-inline-start: 10px;
+  font-family: switzer-variable;
+  font-weight: 400;
+  line-height: 23.76px;
+  text-align: left;
+}
+
+.sign__up__form input:focus {
+  outline: none;
+}
+
+.sign__up__form button {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 59px;
+  width: 175px;
+  background-color: var(--light__green-color);
+  font-family: switzer-variable;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23.76px;
+  text-align: center;
+  color: var(--dark__teal-color);
+  border: none;
+  outline: none;
+}
+
+/* Sign up section */
+
+/* Footer section */
+.footer__section {
+  background-color: var(--light__green-color);
+  padding-block: 100px;
+  margin-top: 100px;
+}
+/* Footer section */
