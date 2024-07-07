@@ -270,7 +270,7 @@
   color: white;
 }
 .sign__up__offer__text p {
-  padding-block: 30px;
+  padding-block: 40px;
   max-width: 25rem;
   margin: 0 auto;
   font-family: switzer-variable;
@@ -315,6 +315,51 @@
 }
 
 /* Sign up section */
+
+/* Get to know each other */
+.get__to__know__wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  place-content: center;
+  gap: 0px 100px;
+
+  padding-block: 100px;
+}
+
+.get__to__know__text {
+  grid-column: span 5;
+}
+
+.get__to__know__text h2 {
+  max-width: 44.4375rem;
+  font-family: boska-variable;
+  font-size: 68px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 88.4px;
+  text-align: left;
+}
+
+.get__to__know__text p {
+  font-family: switzer-variable;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.76px;
+  text-align: left;
+}
+
+.get__to__know__text button {
+  font-family: switzer-variable;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 30px 150px;
+  border: 1px solid var(--dark__teal-color);
+  border-radius: 40px;
+  margin-top: 50px;
+}
+
+/* Get to know each other */
 
 /* Footer section */
 .footer__section {
