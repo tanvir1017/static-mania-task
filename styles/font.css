@@ -235,3 +235,89 @@
   font-weight: 900;
   font-style: italic;
 }
+
+/* Boska Font Classes */
+.boska-extralight {
+  font-family: "Boska-Extralight", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.boska-extralight-italic {
+  font-family: "Boska-Extralight", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.boska-light {
+  font-family: "Boska-Light", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.boska-light-italic {
+  font-family: "Boska-Light", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.boska-regular {
+  font-family: "Boska-Regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.boska-italic {
+  font-family: "Boska-Italic", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.boska-medium {
+  font-family: "Boska-Medium", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.boska-medium-italic {
+  font-family: "Boska-Medium", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.boska-bold {
+  font-family: "Boska-Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.boska-bold-italic {
+  font-family: "Boska-Bold", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.boska-black {
+  font-family: "Boska-Black", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.boska-black-italic {
+  font-family: "Boska-Black", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Boska Variable Font Classes */
+.boska-variable {
+  font-family: "Boska-Variable", sans-serif;
+  font-variation-settings: "wght" 200;
+  font-style: normal;
+}
+
+.boska-variable-italic {
+  font-family: "Boska-VariableItalic", sans-serif;
+  font-variation-settings: "wght" 200;
+  font-style: italic;
+}
