@@ -1,6 +1,6 @@
 /* Merge all of the style files into one */
 @import url(font.css);
-@import url(../fonts/Switzer_CompleteWEB/css/switzer.css);
+@import url(../fonts/css/font__face.css);
 @import url(global.css);
 
 /*________________________________________________________________________ Variable 

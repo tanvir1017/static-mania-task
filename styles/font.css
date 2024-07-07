@@ -109,6 +109,24 @@
 
 /* Google Poppins */
 
+/* AvenirNextLtp font classes */
+.avenirNextLTPro-regular {
+  font-family: "AvenirNextLTPro-Regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.avenirNextLTPro-it {
+  font-family: "AvenirNextLTPro-lt", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.avenirNextLTPro-bold {
+  font-family: "AvenirNextLTPro-Bold", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+/* AvenirNextLtp classes */
+
 /* Switzer Font Classes */
 .switzer-thin {
   font-family: "Switzer-Thin", sans-serif;
